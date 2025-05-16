@@ -1,0 +1,45 @@
+# prod
+/dist/
+
+# dev
+.vscode/*
+!.vscode/launch.json
+!.vscode/*.code-snippets
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/shelf
+
+# deps
+/node_modules/
+/.bun/
+/wrangler/
+
+# Bun
+bun.lockb
+bun.lock
+
+# env
+.env
+.env.*
+.dev.vars
+*.local
+
+# logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# misc
+.DS_Store
+
+# Drizzle
+/migrations/*.ts
+
+# Wrangler
+.wrangler/
+
+# Build artifacts
+/build/
+/.output/
