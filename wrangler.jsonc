@@ -9,11 +9,13 @@
   ],
   "observability": {
     "logs": {
-      "enabled": true,
-    },
+      "enabled": true
+    }
   },
+  "vars": {},
   "env": {
-    "dev": {
+    "production": {
+      "vars": {}
     }
   }
 }
